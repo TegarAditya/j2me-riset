@@ -15,9 +15,7 @@
 	<Header />
 	<PageTransition url={data.url}>
 		<main class="bg-circuit bg-fixed min-h-screen md:min-h-[75vh] lg:min-h-screen">
-			<div class="px-5 py-2 mt-16 md:mt-20 xl:mt-20">
-				<slot />
-			</div>
+			<slot />
 		</main>
 	</PageTransition>
 	<Footer />

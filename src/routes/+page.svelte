@@ -14,6 +14,7 @@
 	<meta name="description" content="J2ME on Divisi Riset Emailkomp" />
 </svelte:head>
 
+<div class="px-5 py-2 mt-16 md:mt-20 xl:mt-20">
 	<div class="my-10 mx-auto text-center text-2xl md:text-5xl font-extrabold text-white px-2 w-fit">
 		<h1
 			class="bg-slate-800 px-2 py-1 w-fit mx-auto -rotate-2 hover:rotate-0 dark:text-slate-800 dark:bg-white"
@@ -60,3 +61,4 @@
 			</Card>
 		{/each}
 	</div>
+</div>
