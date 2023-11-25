@@ -4,3 +4,4 @@
 </script>
 
 <img {src} {alt} loading="lazy" />
+<p class="text-center italic font-light">{alt}</p>
